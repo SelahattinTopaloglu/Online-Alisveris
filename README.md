@@ -1,28 +1,11 @@
-# Shop
+Angular ile online alışveriş sitesi deneme çalışmam.
+İki çeşit ürün ekleme butonu var. Biri klasik form üzerinden diğeri ise Reactive form kullanarak ürün ekliyor.
+Klasik form üzerinden ürün ekleme kısmına girebilmek için sisteme giriş yapmanız gerekiyor. Local stroge dan aldığım kullanıcı adı : selahattin , şifre:12345 değerleri ile giriş yapılabiliyor. Giriş yapıldığında sağ üst kısımda log in butonu log out olarak değişmektedir. 
+Alertify servisi kullanarak sepete ekle dediğimiz ürünün ismi ile sepete eklendi alerti çıkmaktadır.
+İki adet kategori bulunmaktadır. Kategori butonlarına basarak o kategoriye ait ürünleri listeleyebilirsiniz.
+Arama kutusu ile aranan ürünün bulabilirsiniz.
+Ürün ekleme kısımlarında kutucuklara bilgileri yazıp sildiğinizde bir uyarı ile doldurulmasının zorunlu olduğunu belirtliyor. Ürün ekle butonu tüm bilgiler doldurulduğunda aktif oluyor.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+İlk başta ürünleri görmek için  json server yüklemeniz gerekiyor. (npm install -g json-server)
+İkinci adımda json-server --watch shop.json (aynı konumda olmalısınız) komutu ile görüntüleniyor.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-#Online Magaza Deneme
